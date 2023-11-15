@@ -1,0 +1,12 @@
+{
+  "name": "石ころviewer",
+  "version": "1.0",
+  "description": "Youtubeのロゴを石ころにする",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
